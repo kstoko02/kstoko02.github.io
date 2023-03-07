@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://Winter0115.github.io',
+  url: 'https://kstoko02.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   trailingSlash: false ,
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'kstoko02', // Usually your GitHub org/user name.
-  projectName: 'Test', // Usually your repo name.
+  projectName: 'kstoko02.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
