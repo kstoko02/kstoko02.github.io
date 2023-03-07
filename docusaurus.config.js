@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Winter0115',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -75,9 +75,14 @@ const config = {
             type: 'doc',
             docId: '123',
             position: 'left',
-            label: 'MENU',
+            label: 'NOTE',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: "/docs/record",
+            label: "RECORD",
+            position: "left",
+          },
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/kstoko02',
             label: 'GitHub',
@@ -98,14 +103,14 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Social Media',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Instagram',
+                href: 'https://www.instagram.com/winter.chen_0115/',
               },
               {
-                label: 'Discord',
+                label: 'Facebook',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
@@ -118,17 +123,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'NOTE',
+                to: '/123',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/kstoko02',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} by Winter0115. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
